@@ -189,17 +189,17 @@ header.abajo ul li a{
 }
 
  .logo2{
-    position: absolute;
+    position: flex;
     color: #0c0c0c;
     font-weight: bold;
     font-family: Amelia;
     font-size: 5em;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     transition: 1.5s;
     text-decoration: none;  
-    left: 5%;
-    margin-left: 100px;
+    margin-left: -1%;
     margin-top: 0%;
+    text-align: center;
 }
 
 .flex-fill{
