@@ -4291,6 +4291,7 @@ fieldset:disabled .btn {
     padding: .5rem 1rem;
     text-decoration: none;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out
+    align-items: center;
 }
 
 @media (prefers-reduced-motion:reduce) {
@@ -4429,7 +4430,7 @@ fieldset:disabled .btn {
 }
 
 .navbar-collapse {
-    align-items: center;
+    align-items: right;
     width: 100%;
 }
 
@@ -4527,7 +4528,7 @@ fieldset:disabled .btn {
 
 @media (min-width:992px) {
     .navbar-expand-lg {
-        flex-wrap: nowrap;
+        flex-wrap: none;
         justify-content: flex-start
     }
 
